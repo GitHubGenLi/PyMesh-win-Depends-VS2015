@@ -353,6 +353,7 @@ endif()
 # ---------------------------------------
 
 add_library(${qhull_STATIC} STATIC ${libqhull_SOURCES})
+ADD_DEFINITIONS(-Dqh_QHpointer)
 set_target_properties(${qhull_STATIC} PROPERTIES
     VERSION ${qhull_VERSION})
 
