@@ -1,0 +1,11 @@
+﻿  time_hash_map.cc
+..\..\src\time_hash_map.cc(106): error C2039: 'unordered_map': is not a member of 'stdext'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\iterator(352): note: see declaration of 'stdext'
+..\..\src\time_hash_map.cc(106): error C2873: 'unordered_map': symbol cannot be used in a using-declaration
+..\..\src\time_hash_map.cc(155): error C2143: syntax error: missing ',' before '<'
+  ..\..\src\time_hash_map.cc(159): note: see reference to class template instantiation 'EasyUseHashMap<K,V,H>' being compiled
+..\..\src\time_hash_map.cc(513): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  port.cc
+..\..\src\windows\port.cc(44): error C2084: function 'int snprintf(char *const ,const std::size_t,const char *const ,...)' already has a body
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1932): note: see previous definition of 'snprintf'
+  Generating Code...

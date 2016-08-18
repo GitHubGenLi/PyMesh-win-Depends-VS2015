@@ -1,0 +1,212 @@
+﻿  hashtable_test.cc
+..\..\src\hashtable_test.cc(362): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+..\..\src\hashtable_test.cc(362): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+..\..\src\hashtable_test.cc(1920): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(900): warning C4244: 'argument': conversion from 'u_int16_t' to 'unsigned char', possible loss of data
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(895): note: while compiling class template member function 'void google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,uint8,10>>::free_group(void)'
+          with
+          [
+              T=int
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(999): note: see reference to function template instantiation 'void google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,uint8,10>>::free_group(void)' being compiled
+          with
+          [
+              T=int
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(624): note: see reference to class template instantiation 'google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,uint8,10>>' being compiled
+          with
+          [
+              T=int
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/sparsehashtable.h(263): note: see reference to class template instantiation 'google::const_two_d_iterator<std::vector<google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,uint8,10>>,`anonymous-namespace'::Alloc<U,SizeT,10>>>' being compiled
+          with
+          [
+              T=int,
+              U=google::sparsegroup<int,48,`anonymous-namespace'::Alloc<int,uint8,10>>,
+              SizeT=uint8
+          ]
+  ..\..\src\hashtable_test.cc(1970): note: see reference to class template instantiation 'google::sparse_hashtable_const_iterator<Value,Key,HashFcn,ExtractKey,SetKey,EqualKey,Alloc>' being compiled
+          with
+          [
+              Value=int,
+              Key=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              ExtractKey=google::sparse_hash_set<int,`anonymous-namespace'::Hasher,`anonymous-namespace'::Hasher,`anonymous-namespace'::Alloc<int,uint8,10>>::Identity,
+              SetKey=google::sparse_hash_set<int,`anonymous-namespace'::Hasher,`anonymous-namespace'::Hasher,`anonymous-namespace'::Alloc<int,uint8,10>>::SetKey,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,uint8,10>
+          ]
+D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/hashtable-common.h(244): warning C4267: 'return': conversion from 'size_t' to 'unsigned char', possible loss of data
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/hashtable-common.h(242): note: while compiling class template member function 'unsigned char google::sparsehash_internal::sh_hashtable_settings<int,`anonymous-namespace'::Hasher,unsigned char,4>::hash(const int &) const'
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/densehashtable.h(1271): note: see reference to function template instantiation 'unsigned char google::sparsehash_internal::sh_hashtable_settings<int,`anonymous-namespace'::Hasher,unsigned char,4>::hash(const int &) const' being compiled
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/sparsehashtable.h(1165): note: see reference to class template instantiation 'google::sparsehash_internal::sh_hashtable_settings<int,`anonymous-namespace'::Hasher,unsigned char,4>' being compiled
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/sparsehashtable.h(1213): note: see reference to class template instantiation 'google::sparse_hashtable<Value,Value,HashFcn,google::sparse_hash_set<Value,HashFcn,`anonymous-namespace'::Hasher,`anonymous-namespace'::Alloc<int,unsigned char,255>>::Identity,google::sparse_hash_set<Value,HashFcn,`anonymous-namespace'::Hasher,`anonymous-namespace'::Alloc<int,unsigned char,255>>::SetKey,EqualKey,Alloc>::Settings' being compiled
+          with
+          [
+              Value=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,unsigned char,255>
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparse_hash_set(121): note: see reference to class template instantiation 'google::sparse_hashtable<Value,Value,HashFcn,google::sparse_hash_set<Value,HashFcn,`anonymous-namespace'::Hasher,`anonymous-namespace'::Alloc<int,unsigned char,255>>::Identity,google::sparse_hash_set<Value,HashFcn,`anonymous-namespace'::Hasher,`anonymous-namespace'::Alloc<int,unsigned char,255>>::SetKey,EqualKey,Alloc>' being compiled
+          with
+          [
+              Value=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,unsigned char,255>
+          ]
+  ..\..\src\hashtable_test.cc(953): note: see reference to class template instantiation 'google::sparse_hash_set<int,`anonymous-namespace'::Hasher,`anonymous-namespace'::Hasher,`anonymous-namespace'::Alloc<int,unsigned char,255>>' being compiled
+D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(883): warning C4244: 'argument': conversion from 'google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,unsigned char,255>>::size_type' to 'unsigned char', possible loss of data
+          with
+          [
+              T=int
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(882): note: while compiling class template member function 'int *google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,unsigned char,255>>::allocate_group(google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,unsigned char,255>>::size_type)'
+          with
+          [
+              T=int
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(1098): note: see reference to function template instantiation 'int *google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,unsigned char,255>>::allocate_group(google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,unsigned char,255>>::size_type)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(883): warning C4244: 'argument': conversion from 'google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,uint8,10>>::size_type' to 'unsigned char', possible loss of data
+          with
+          [
+              T=int
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(882): note: while compiling class template member function 'int *google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,uint8,10>>::allocate_group(google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,uint8,10>>::size_type)'
+          with
+          [
+              T=int
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(1098): note: see reference to function template instantiation 'int *google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,uint8,10>>::allocate_group(google::sparsegroup<T,48,`anonymous-namespace'::Alloc<T,uint8,10>>::size_type)' being compiled
+          with
+          [
+              T=int
+          ]
+..\..\src\hashtable_test.cc(589): error C2065: 'unused': undeclared identifier
+  ..\..\src\hashtable_test.cc(571): note: while compiling class template member function 'void `anonymous-namespace'::TEST_onetype_HashtableIntTest_Typedefs<`anonymous-namespace'::HashtableIntTest_type1>::Run(void)'
+  ..\..\src\hashtable_test.cc(571): note: see reference to function template instantiation 'void `anonymous-namespace'::TEST_onetype_HashtableIntTest_Typedefs<`anonymous-namespace'::HashtableIntTest_type1>::Run(void)' being compiled
+  ..\..\src\hashtable_test.cc(571): note: see reference to class template instantiation '`anonymous-namespace'::TEST_onetype_HashtableIntTest_Typedefs<`anonymous-namespace'::HashtableIntTest_type1>' being compiled
+..\..\src\hashtable_test.cc(589): error C3861: '__attribute__': identifier not found
+..\..\src\hashtable_test.cc(589): error C2144: syntax error: 'google::BaseHashtableInterface<google::sparse_hash_map<Key,T,HashFcn,EqualKey,Alloc>>::reference' should be preceded by ';'
+          with
+          [
+              Key=int,
+              T=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+..\..\src\hashtable_test.cc(590): error C2065: 'unused': undeclared identifier
+..\..\src\hashtable_test.cc(590): error C3861: '__attribute__': identifier not found
+..\..\src\hashtable_test.cc(590): error C2144: syntax error: 'google::BaseHashtableInterface<google::sparse_hash_map<Key,T,HashFcn,EqualKey,Alloc>>::const_reference' should be preceded by ';'
+          with
+          [
+              Key=int,
+              T=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+..\..\src\hashtable_test.cc(589): error C2144: syntax error: 'google::BaseHashtableInterface<google::sparse_hash_set<Value,HashFcn,EqualKey,Alloc>>::reference' should be preceded by ';'
+          with
+          [
+              Value=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+..\..\src\hashtable_test.cc(590): error C2144: syntax error: 'google::BaseHashtableInterface<google::sparse_hash_set<Value,HashFcn,EqualKey,Alloc>>::const_reference' should be preceded by ';'
+          with
+          [
+              Value=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+..\..\src\hashtable_test.cc(589): error C2144: syntax error: 'google::BaseHashtableInterface<google::sparse_hashtable<Value,Key,HashFcn,ExtractKey,SetKey,EqualKey,Alloc>>::reference' should be preceded by ';'
+          with
+          [
+              Value=int,
+              Key=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              ExtractKey=`anonymous-namespace'::Negation<int>,
+              SetKey=`anonymous-namespace'::SetKey<int,`anonymous-namespace'::Negation<int>>,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+..\..\src\hashtable_test.cc(590): error C2144: syntax error: 'google::BaseHashtableInterface<google::sparse_hashtable<Value,Key,HashFcn,ExtractKey,SetKey,EqualKey,Alloc>>::const_reference' should be preceded by ';'
+          with
+          [
+              Value=int,
+              Key=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              ExtractKey=`anonymous-namespace'::Negation<int>,
+              SetKey=`anonymous-namespace'::SetKey<int,`anonymous-namespace'::Negation<int>>,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+..\..\src\hashtable_test.cc(589): error C2144: syntax error: 'google::BaseHashtableInterface<google::dense_hash_map<Key,T,HashFcn,EqualKey,Alloc>>::reference' should be preceded by ';'
+          with
+          [
+              Key=int,
+              T=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+..\..\src\hashtable_test.cc(590): error C2144: syntax error: 'google::BaseHashtableInterface<google::dense_hash_map<Key,T,HashFcn,EqualKey,Alloc>>::const_reference' should be preceded by ';'
+          with
+          [
+              Key=int,
+              T=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+..\..\src\hashtable_test.cc(589): error C2144: syntax error: 'google::BaseHashtableInterface<google::dense_hash_set<Value,HashFcn,EqualKey,Alloc>>::reference' should be preceded by ';'
+          with
+          [
+              Value=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+..\..\src\hashtable_test.cc(590): error C2144: syntax error: 'google::BaseHashtableInterface<google::dense_hash_set<Value,HashFcn,EqualKey,Alloc>>::const_reference' should be preceded by ';'
+          with
+          [
+              Value=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+..\..\src\hashtable_test.cc(589): error C2144: syntax error: 'google::BaseHashtableInterface<google::dense_hashtable<Value,Key,HashFcn,ExtractKey,SetKey,EqualKey,Alloc>>::reference' should be preceded by ';'
+          with
+          [
+              Value=int,
+              Key=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              ExtractKey=`anonymous-namespace'::Negation<int>,
+              SetKey=`anonymous-namespace'::SetKey<int,`anonymous-namespace'::Negation<int>>,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+..\..\src\hashtable_test.cc(590): error C2144: syntax error: 'google::BaseHashtableInterface<google::dense_hashtable<Value,Key,HashFcn,ExtractKey,SetKey,EqualKey,Alloc>>::const_reference' should be preceded by ';'
+          with
+          [
+              Value=int,
+              Key=int,
+              HashFcn=`anonymous-namespace'::Hasher,
+              ExtractKey=`anonymous-namespace'::Negation<int>,
+              SetKey=`anonymous-namespace'::SetKey<int,`anonymous-namespace'::Negation<int>>,
+              EqualKey=`anonymous-namespace'::Hasher,
+              Alloc=`anonymous-namespace'::Alloc<int,std::size_t,18446744073709551615>
+          ]
+  port.cc
+..\..\src\windows\port.cc(44): error C2084: function 'int snprintf(char *const ,const std::size_t,const char *const ,...)' already has a body
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1932): note: see previous definition of 'snprintf'
+  Generating Code...

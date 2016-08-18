@@ -1,0 +1,98 @@
+﻿  sparsetable_unittest.cc
+D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(1599): warning C4244: 'argument': conversion from '__int64' to 'google::sparsegroup<T,48,google::libc_allocator_with_realloc<T>>::size_type', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(1594): note: while compiling class template member function 'unsigned __int64 google::sparsetable<unsigned int,48,google::libc_allocator_with_realloc<T>>::get_pos(const google::const_two_d_iterator<std::vector<google::sparsegroup<T,48,google::libc_allocator_with_realloc<T>>,google::libc_allocator_with_realloc<U>>> &) const'
+          with
+          [
+              T=unsigned int,
+              U=google::sparsegroup<unsigned int,48,google::libc_allocator_with_realloc<unsigned int>>
+          ]
+  ..\..\src\sparsetable_unittest.cc(285): note: see reference to function template instantiation 'unsigned __int64 google::sparsetable<unsigned int,48,google::libc_allocator_with_realloc<T>>::get_pos(const google::const_two_d_iterator<std::vector<google::sparsegroup<T,48,google::libc_allocator_with_realloc<T>>,google::libc_allocator_with_realloc<U>>> &) const' being compiled
+          with
+          [
+              T=unsigned int,
+              U=google::sparsegroup<unsigned int,48,google::libc_allocator_with_realloc<unsigned int>>
+          ]
+  ..\..\src\sparsetable_unittest.cc(278): note: see reference to class template instantiation 'google::sparsetable<unsigned int,48,google::libc_allocator_with_realloc<T>>' being compiled
+          with
+          [
+              T=unsigned int
+          ]
+D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/hashtable-common.h(179): error C2065: 'unused': undeclared identifier
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(1654): note: see reference to function template instantiation 'bool google::sparsehash_internal::write_bigendian_number<OUTPUT,IntType>(OUTPUT *,IntType,std::size_t)' being compiled
+          with
+          [
+              OUTPUT=FILE,
+              IntType=google::sparsetable<int,48,google::libc_allocator_with_realloc<int>>::MagicNumberType
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(1684): note: see reference to function template instantiation 'bool google::sparsetable<int,48,google::libc_allocator_with_realloc<T>>::write_32_or_64<OUTPUT,google::sparsetable<T,48,google::libc_allocator_with_realloc<T>>::MagicNumberType>(OUTPUT *,IntType)' being compiled
+          with
+          [
+              T=int,
+              OUTPUT=FILE,
+              IntType=google::sparsetable<int,48,google::libc_allocator_with_realloc<int>>::MagicNumberType
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(1684): note: see reference to function template instantiation 'bool google::sparsetable<int,48,google::libc_allocator_with_realloc<T>>::write_32_or_64<OUTPUT,google::sparsetable<T,48,google::libc_allocator_with_realloc<T>>::MagicNumberType>(OUTPUT *,IntType)' being compiled
+          with
+          [
+              T=int,
+              OUTPUT=FILE,
+              IntType=google::sparsetable<int,48,google::libc_allocator_with_realloc<int>>::MagicNumberType
+          ]
+  ..\..\src\sparsetable_unittest.cc(358): note: see reference to function template instantiation 'bool google::sparsetable<int,48,google::libc_allocator_with_realloc<T>>::write_metadata<FILE>(OUTPUT *) const' being compiled
+          with
+          [
+              T=int,
+              OUTPUT=FILE
+          ]
+  ..\..\src\sparsetable_unittest.cc(358): note: see reference to function template instantiation 'bool google::sparsetable<int,48,google::libc_allocator_with_realloc<T>>::write_metadata<FILE>(OUTPUT *) const' being compiled
+          with
+          [
+              T=int,
+              OUTPUT=FILE
+          ]
+D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/hashtable-common.h(179): error C3861: '__attribute__': identifier not found
+D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/hashtable-common.h(179): error C2144: syntax error: 'google::SparsehashCompileAssert<true>' should be preceded by ';'
+D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/hashtable-common.h(166): error C2065: 'unused': undeclared identifier
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(1668): note: see reference to function template instantiation 'bool google::sparsehash_internal::read_bigendian_number<INPUT,google::sparsetable<int,48,google::libc_allocator_with_realloc<T>>::MagicNumberType>(INPUT *,IntType *,std::size_t)' being compiled
+          with
+          [
+              INPUT=FILE,
+              T=int,
+              IntType=google::sparsetable<int,48,google::libc_allocator_with_realloc<int>>::MagicNumberType
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(1697): note: see reference to function template instantiation 'bool google::sparsetable<int,48,google::libc_allocator_with_realloc<T>>::read_32_or_64<INPUT,unsigned __int64>(INPUT *,IntType *)' being compiled
+          with
+          [
+              T=int,
+              INPUT=FILE,
+              IntType=unsigned __int64
+          ]
+  D:\chang\tmp\depends\sparsehash-master\src\sparsehash/sparsetable(1697): note: see reference to function template instantiation 'bool google::sparsetable<int,48,google::libc_allocator_with_realloc<T>>::read_32_or_64<INPUT,unsigned __int64>(INPUT *,IntType *)' being compiled
+          with
+          [
+              T=int,
+              INPUT=FILE,
+              IntType=unsigned __int64
+          ]
+  ..\..\src\sparsetable_unittest.cc(367): note: see reference to function template instantiation 'bool google::sparsetable<int,48,google::libc_allocator_with_realloc<T>>::read_metadata<FILE>(INPUT *)' being compiled
+          with
+          [
+              T=int,
+              INPUT=FILE
+          ]
+  ..\..\src\sparsetable_unittest.cc(367): note: see reference to function template instantiation 'bool google::sparsetable<int,48,google::libc_allocator_with_realloc<T>>::read_metadata<FILE>(INPUT *)' being compiled
+          with
+          [
+              T=int,
+              INPUT=FILE
+          ]
+D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/hashtable-common.h(166): error C3861: '__attribute__': identifier not found
+D:\chang\tmp\depends\sparsehash-master\src\sparsehash/internal/hashtable-common.h(166): error C2144: syntax error: 'google::SparsehashCompileAssert<true>' should be preceded by ';'
+  port.cc
+..\..\src\windows\port.cc(44): error C2084: function 'int snprintf(char *const ,const std::size_t,const char *const ,...)' already has a body
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1932): note: see previous definition of 'snprintf'
+  Generating Code...

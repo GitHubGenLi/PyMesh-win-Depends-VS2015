@@ -1,0 +1,5 @@
+﻿  type_traits_unittest.cc
+  port.cc
+..\..\src\windows\port.cc(44): error C2084: function 'int snprintf(char *const ,const std::size_t,const char *const ,...)' already has a body
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1932): note: see previous definition of 'snprintf'
+  Generating Code...
